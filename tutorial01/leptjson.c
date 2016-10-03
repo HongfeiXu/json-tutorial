@@ -32,6 +32,7 @@ static int lept_parse_value(lept_context* c, lept_value* v) {
     }
 }
 
+// ½âÎö JSON
 int lept_parse(lept_value* v, const char* json) {
     lept_context c;
     assert(v != NULL);
